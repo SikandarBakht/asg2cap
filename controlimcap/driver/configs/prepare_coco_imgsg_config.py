@@ -4,7 +4,7 @@ import sys
 import argparse
 import json
 import numpy as np
-
+sys.path.append('/content/asg2cap')
 import caption.encoders.vanilla
 import caption.decoders.vanilla
 import caption.models.vanilla
